@@ -23,7 +23,7 @@ import { ProductDetailComponent } from './products/product-detail.component';
       { path: 'welcome', component: WelcomeComponent },
       { path: '', redirectTo: 'welcome', pathMatch: 'full' },
       { path: '**', redirectTo: 'welcome', pathMatch: 'full' }
-    ])
+    ]),
   ],
   declarations: [
     AppComponent,
@@ -31,7 +31,7 @@ import { ProductDetailComponent } from './products/product-detail.component';
     ProductFilterPipe,
     StarComponent,
     ProductDetailComponent,
-
+    WelcomeComponent
   ],
   bootstrap: [AppComponent]
 })

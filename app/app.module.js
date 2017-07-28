@@ -34,7 +34,7 @@ AppModule = __decorate([
                 { path: 'welcome', component: welcome_component_1.WelcomeComponent },
                 { path: '', redirectTo: 'welcome', pathMatch: 'full' },
                 { path: '**', redirectTo: 'welcome', pathMatch: 'full' }
-            ])
+            ]),
         ],
         declarations: [
             app_component_1.AppComponent,
@@ -42,6 +42,7 @@ AppModule = __decorate([
             product_filter_pipe_1.ProductFilterPipe,
             star_component_1.StarComponent,
             product_detail_component_1.ProductDetailComponent,
+            welcome_component_1.WelcomeComponent
         ],
         bootstrap: [app_component_1.AppComponent]
     })
